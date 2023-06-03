@@ -1,0 +1,88 @@
+/*Футер*/
+
+.containar-footer {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: $baner-footer-color;
+}
+
+.logolink-futer {
+    text-decoration: none;
+}
+
+.logo-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: $accent-color;
+    text-decoration: none;
+}
+
+.logos-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+    text-decoration: none;
+
+
+    &:hover {
+        color: $accent-color;
+    }
+}
+
+.footer-list {
+    margin: 0;
+}
+
+.paragraph {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.adress {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $primary-white-color;
+
+    margin: 0;
+    padding-bottom: 9px;
+
+}
+
+.adreslist-footer {
+    margin: 0;
+}
+
+.link-footer {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    &:hover {
+        color: $accent-color;
+    }
+}

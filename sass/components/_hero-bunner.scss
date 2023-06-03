@@ -1,0 +1,38 @@
+/*HERO Bunner*/
+
+.hero {
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 600px;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../img/Img\ \(1\).jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $title-text-color;
+}
+
+.bunner {
+    margin: 0;
+}
+
+.herotitle {
+    margin: 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: $primary-white-color;
+
+    padding-top: 200px;
+    padding-bottom: 40px;
+}

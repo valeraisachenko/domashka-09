@@ -1,0 +1,101 @@
+/*Герои*/
+
+.section-title {
+    margin-top: 94px;
+}
+
+.future-list {
+    display: flex;
+    justify-content: center;
+}
+
+.svg {
+    display: flex;
+    background-color: $secondary-bg-team;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.zagolovok {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $title-text-color;
+}
+
+.abzac {
+    margin-top: 10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: $adres-color;
+}
+
+
+.actions {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 245px;
+    height: 63px;
+}
+
+.iconeli {
+    border-radius: 50%;
+    background-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.bicon {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    fill: #AFB1B8;
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+
+
+    &:hover {
+        fill: $primary-white-color;
+    }
+}
+
+.iconeli:hover {
+    background-color: #2196f3;
+}
+
+
+
+.future-list>.item {
+    flex-basis: calc(100% / 4);
+    margin-right: 30px;
+    margin-bottom: 94px;
+
+}
+
+.future-list>.item:last-child {
+    margin-right: 0;
+}

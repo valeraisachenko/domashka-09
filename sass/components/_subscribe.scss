@@ -1,0 +1,81 @@
+/*Подписаться */
+
+.batton {
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 29px;
+    background: $accent-color;
+    color: $primary-white-color;
+    border-radius: 3px;
+    text-decoration: none;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: $primary-white-color;
+
+    &:hover,
+    &:focus {
+        background-color: teal;
+        border: none;
+        transition: transform 250ms $timing-fungtion;
+    }
+
+    &::after {
+        content: "";
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        background-image: url("../img/icon\ send.svg");
+        background-size: contain;
+    }
+}
+
+
+.iconx {
+    width: 16px;
+    height: 12px;
+
+    & .letter {
+        fill: $title-text-color;
+    }
+}
+
+.iconxx {
+    width: 16px;
+    height: 20px;
+
+    & .letter {
+        fill: $title-text-color;
+    }
+}
+
+
+.iconxl {
+    width: 20px;
+    height: 20px;
+}
+
+.iconxl.letter.letter {
+    fill: $title-text-color;
+}
+
+.iconx .letter:hover {
+    fill: $accent-color;
+}
+
+.iconxl .letter:hover {
+    fill: $accent-color;
+}
+
+.iconxx .letter:hover {
+    fill: $accent-color;
+}
