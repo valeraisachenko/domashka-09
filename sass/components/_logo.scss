@@ -1,0 +1,36 @@
+.main-nav__logo {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logos {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.main-nav__logolink {
+    text-decoration: none;
+    margin-right: 90px;
+}
+
+.main-nav__logo:hover,
+.main-nav__logo:focus {
+    color: #2196F3;
+    transition: transform 250ms transform (0.4, 0, 0.2, 1);
+    transition: transform 250ms transform(0.4, 0, 0.2, 1);
+} 

@@ -1,0 +1,260 @@
+.containar-footer {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.logolink-futer {
+    text-decoration: none;
+}
+
+.logo-footer {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.logos-footer {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.logos-footer:hover {
+    color: #2196F3;
+}
+
+.footer-list {
+    margin: 0;
+}
+
+.paragraph {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.adress {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin: 0;
+    padding-bottom: 9px;
+}
+
+.adreslist-footer {
+    margin: 0;
+}
+
+.link-footer {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.link-footer:hover {
+    color: #2196F3;
+}
+
+.footer-setion {
+    display: block;
+    background-color: #2f303a;
+}
+
+.accent {
+    color: #ffffff;
+}
+
+.accent:hover {
+    color: #2196F3;
+}
+
+.container.container-footer {
+    display: flex;
+    height: 252px;
+    align-items: baseline;
+}
+
+.adres-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 75px;
+    min-width: 231px;
+    margin-top: 60px;
+}
+
+.social-container {
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 207px;
+    margin-right: 93px;
+}
+
+.accession {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.lezt-post {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 94px;
+}
+
+.iten-one {
+    padding-bottom: 9px;
+}
+
+.info {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.info:hover {
+    color: #2196F3;
+}
+
+.links-one {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    background-image: url(../img/inst\ footer\ \(2\).svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.links-twit {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    background-image: url(../img/twitter\ footer\ \(1\).svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.links-faceb {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    background-image: url(../img/fb\ foter.svg);
+    border-radius: 50%;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.links-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    background-image: url(../img/In\ footer\ \(3\).svg);
+    border-radius: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.links-faceb:hover {
+    background-color: #2196F3;
+}
+
+.links-one:hover {
+    background-color: #2196F3;
+}
+
+.links-twit:hover {
+    background-color: #2196F3;
+}
+
+.links-link:hover {
+    background-color: #2196F3;
+}
+
+
+
+.destance {
+    padding-right: 12px;
+}
+
+.subscribe {
+    border: none;
+    text-decoration: none;
+    display: inline-flex;
+    cursor: pointer;
+    background: #2196F3;
+    border-radius: 4px;
+}
+
+.subscribes {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
