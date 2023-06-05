@@ -1,0 +1,87 @@
+/* Auth nav */
+.auth-nav {
+@media screen and (min-width: 768px) {
+    display: flex;
+    margin-left: auto;
+    }
+}
+
+.auth-nav .item+.item {
+    margin-left: 50px;
+}
+
+.link-adres {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #212121;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link-adres-tel {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #212121;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.link-adres::before {
+    display: inline-block;
+    content: "";
+    width: 21px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../img/poshta.svg");
+    background-size: contain;
+    cursor: pointer;
+    color: #2196F3;
+    margin-right: 10px;
+}
+
+.link-tel::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-left: 10px;
+    background-image: url("../img/tel.svg");
+    background-size: contain;
+    cursor: pointer;
+    color: #2196F3;
+    margin-right: 10px;
+}
+
+.link-tel {
+    fill: #2196F3;
+}
+
+.icone:hover {
+    fill: #ffffff;
+}
+
+.auth-nav .link-adres .link-tel {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.link-adres:hover {
+    color: var(--accent-color);
+}
+
+.link-tel:hover {
+    color: var(--accent-color);
+}

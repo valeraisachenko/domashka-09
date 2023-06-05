@@ -26,3 +26,13 @@ img {
     display: block;
     height: auto;
 }
+
+.wraper {
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 768px;
+}
